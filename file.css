@@ -1,237 +1,8 @@
 
 
-body {
-	margin: 0px;
-	padding: 0px;
-	background: white;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
-}
-
-p, li, a, ul, ol {
-	font-size: 16px;
-}
-
-strong {
-	font-weight: normal;
-}
-
-/*----------------------------------------*/
-/* Menu du site */
-#acceuil {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: auto auto auto;
-}
-
-#menu {
-	margin: 5px 5px 0px 5px;
-
-}
-
-#menu ul {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	background-color: orange;
-	border: 4px solid black;
-	border-radius: 7px;
-	box-sizing: content-box;
-	width: auto;
-	height: auto;
-	padding: 8px;
-}
-
-#menu li {
-	list-style-type: none;
-}
-
-#menu a {
-	text-decoration: none;
-	color: black;
-	background-color: orange;
-	padding: 3px;
-	margin: 3px;
-}
-
-#menu a:hover {
-	border: 2px solid black;
-	border-radius: 4px;
-	background-color: blanchedalmond;
-}
-
-/*----------------------------------------*/
-/* Pieds du site */
-#foot {
-	background-color: #a7a7a7;
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr 1fr;
-	padding: 15px;
-}
-
-#foot li {
-	list-style-type: none;
-}
-
-#foot a {
-	text-decoration: none;
-	color: black;
-}
-
-#foot a:hover {
-	color: brown;
-}
-
-#foot p {
-	text-align: start;
-	font-weight: bold;
-	text-indent: 30px;
-}
-
-/*----------------------------------------*/
-/* Contenue de la page Acceuil */
-#acceuil_body {
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 10px;
-	box-sizing: border-box;
-}
-
-#acceuil_body h1 {
-	text-align: center;
-	font-size: 60px;
-}
-
-#acceuil_body #section_1 p{
-	text-align: justify;
-	padding: 0px 100px 0px 100px;
-}
-
-#acceuil_body #section_2 h2 {
-	text-align: center;
-}
-
-#acceuil_body #section_3 {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr;
-	align-content: stretch;
-	gap: 20px 20px;
-}
-
-#acceuil_body #section_3 div {
-	border: 2px solid black;
-	border-radius: 5px;
-	box-shadow: 2px 2px 5px;
-	padding: 7px;
-	background-color: grey;
-}
-
-#acceuil_body #section_3 .titre_liens {
-	font-size: 20px;
-	font-weight: bold;
-	font-size: 45px;
-}
-
-#acceuil_body #section_3 a:hover {
-	color: brown;
-}
-
-/*----------------------------------------*/
-/* Corps de la page cv */
-#cv {
-	display: grid;
-	grid-template-columns: 1fr 4fr 1fr;
-	grid-template-rows: auto;
-	grid-template-areas: "space1 content1 space2";
-}
-
-#space1 {
-	grid-area: space1;
-	background-color: white;
-}
-
-#content {
-	grid-area: content1;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 10px;
-	margin-bottom: 25px;
-	box-sizing: border-box;
-	background-color: darkgray;
-}
-
-#space2 {
-	grid-area: space2;
-	background-color: white;
-}
-
-#cv h1 {
-	text-align: center;
-}
-
-#cv .principale {
-	border: 2px solid black;
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: auto auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-#cv .secondaire {
-	display: grid;
-	grid-template-columns: 320px 270px 160px;
-	grid-template-rows: auto;
-	margin: 10px;
-}
-
-#cv p {
-	background-color: grey;
-	border-bottom: 2px solid black;
-	margin: 0px;
-	font-size: 26px;
-}
-
-#cv span {
-	font-size: 22px;
-}
-
-/*----------------------------------------*/
-/* corp de la page projet */
-#projet {
-	padding: 50px;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr;
-	gap: 10px 10px;
-}
-
-#projet div {
-	box-shadow: 5px 5px 20px;
-	padding: 10px;
-	background-color: blanchedalmond;
-}
-
-#projet a {
-	color: black;
-}
-
-#projet a:hover {
-	color: brown;
-}
-
-#projet h3 {
-	font-size: 50px;
-}
-
 /*----------------------------------------*/
 
 
-@media screen and (min-width: 800px)
-{
 
 	body {
 		margin: 0px;
@@ -453,5 +224,234 @@ strong {
 	#projet a:hover {
 		color: brown;
 	}
-}
+
 	/*----------------------------------------*/
+
+	@media screen and (min-width: 800px)
+	{
+	
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: white;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+	
+	p, li, a, ul, ol {
+		font-size: 18px;
+	}
+	
+	strong {
+		font-weight: normal;
+	}
+	
+	/*----------------------------------------*/
+	/* Menu du site */
+	#acceuil {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto auto;
+	}
+	
+	#menu {
+		margin: 5px 5px 0px 5px;
+	
+	}
+	
+	#menu ul {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		background-color: orange;
+		border: 4px solid black;
+		border-radius: 7px;
+		box-sizing: content-box;
+		width: auto;
+		height: auto;
+		padding: 8px;
+	}
+	
+	#menu li {
+		list-style-type: none;
+	}
+	
+	#menu a {
+		text-decoration: none;
+		color: black;
+		background-color: orange;
+		padding: 3px;
+		margin: 3px;
+	}
+	
+	#menu a:hover {
+		border: 2px solid black;
+		border-radius: 4px;
+		background-color: blanchedalmond;
+	}
+	
+	/*----------------------------------------*/
+	/* Pieds du site */
+	#foot {
+		background-color: #a7a7a7;
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr;
+		padding: 15px;
+	}
+	
+	#foot li {
+		list-style-type: none;
+	}
+	
+	#foot a {
+		text-decoration: none;
+		color: black;
+	}
+	
+	#foot a:hover {
+		color: brown;
+	}
+	
+	#foot p {
+		text-align: start;
+		font-weight: bold;
+		text-indent: 30px;
+	}
+	
+	/*----------------------------------------*/
+	/* Contenue de la page Acceuil */
+	#acceuil_body {
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 10px;
+		box-sizing: border-box;
+	}
+	
+	#acceuil_body h1 {
+		text-align: center;
+	}
+	
+	#acceuil_body #section_1 p{
+		text-align: justify;
+		padding: 0px 150px 0px 150px;
+	}
+	
+	#acceuil_body #section_2 h2 {
+		text-align: center;
+	}
+	
+	#acceuil_body #section_3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		align-content: stretch;
+		gap: 20px 20px;
+	}
+	
+	#acceuil_body #section_3 div {
+		border: 2px solid black;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px;
+		padding: 7px;
+		background-color: grey;
+	}
+	
+	#acceuil_body #section_3 .titre_liens {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	#acceuil_body #section_3 a:hover {
+		color: brown;
+	}
+	
+	/*----------------------------------------*/
+	/* Corps de la page cv */
+	#cv {
+		display: grid;
+		grid-template-columns: 1fr 4fr 1fr;
+		grid-template-rows: auto;
+		grid-template-areas: "space1 content1 space2";
+	}
+	
+	#space1 {
+		grid-area: space1;
+		background-color: white;
+	}
+	
+	#content {
+		grid-area: content1;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 10px;
+		margin-bottom: 25px;
+		box-sizing: border-box;
+		background-color: darkgray;
+	}
+	
+	#space2 {
+		grid-area: space2;
+		background-color: white;
+	}
+	
+	#cv h1 {
+		text-align: center;
+	}
+	
+	#cv .principale {
+		border: 2px solid black;
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	#cv .secondaire {
+		display: grid;
+		grid-template-columns: 320px 270px 160px;
+		grid-template-rows: auto;
+		margin: 10px;
+	}
+	
+	#cv p {
+		background-color: grey;
+		border-bottom: 2px solid black;
+		margin: 0px;
+		font-size: 26px;
+	}
+	
+	#cv span {
+		font-size: 22px;
+	}
+	
+	/*----------------------------------------*/
+	/* corp de la page projet */
+	#projet {
+		padding: 50px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 10px 10px;
+	}
+	
+	#projet div {
+		box-shadow: 5px 5px 20px;
+		padding: 10px;
+		background-color: blanchedalmond;
+	}
+	
+	#projet a {
+		color: black;
+	}
+	
+	#projet a:hover {
+		color: brown;
+	}
+	
+	#projet h3 {
+		font-size: 30px;
+	}
+	}
