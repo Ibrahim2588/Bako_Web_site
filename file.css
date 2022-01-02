@@ -1,3 +1,5 @@
+@media screen and (min-width: 800px)
+{
 body {
 	margin: 0px;
 	padding: 0px;
@@ -193,6 +195,10 @@ strong {
 	margin: 0px;
 }
 
+#cv pre {
+	font-size: 30px;
+}
+
 /*----------------------------------------*/
 /* corp de la page projet */
 #projet {
@@ -220,13 +226,12 @@ strong {
 #projet h3 {
 	font-size: 50px;
 }
-
+}
 /*----------------------------------------*/
 
 
 
-@media screen and (min-width: 1000px)
-{
+
 
 	body {
 		margin: 0px;
@@ -443,5 +448,3 @@ strong {
 	}
 	
 	/*----------------------------------------*/
-
-}
