@@ -1,5 +1,4 @@
-@media screen and (min-width: 800px)
-{
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -227,12 +226,13 @@ strong {
 #projet h3 {
 	font-size: 50px;
 }
-}
+
 /*----------------------------------------*/
 
 
 
-
+@media screen and (min-width: 800px)
+{
 
 	body {
 		margin: 0px;
@@ -451,5 +451,5 @@ strong {
 	#projet a:hover {
 		color: brown;
 	}
-	
+}
 	/*----------------------------------------*/
