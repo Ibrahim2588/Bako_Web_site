@@ -6,12 +6,12 @@ body {
 	padding: 0px;
 	background: white;
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 }
 
 p, li, a, ul, ol {
-	font-size: 40px;
+	font-size: 16px;
 }
 
 strong {
@@ -41,7 +41,7 @@ strong {
 	box-sizing: content-box;
 	width: auto;
 	height: auto;
-	padding: 10px;
+	padding: 8px;
 }
 
 #menu li {
@@ -107,12 +107,11 @@ strong {
 
 #acceuil_body #section_1 p{
 	text-align: justify;
-	padding: 0px 30px 0px 30px;
+	padding: 0px 100px 0px 100px;
 }
 
 #acceuil_body #section_2 h2 {
 	text-align: center;
-	font-size: 50px;
 }
 
 #acceuil_body #section_3 {
@@ -244,7 +243,7 @@ strong {
 	}
 	
 	p, li, a, ul, ol {
-		font-size: 18px;
+		font-size: 35px;
 	}
 	
 	strong {
@@ -273,7 +272,7 @@ strong {
 		box-sizing: content-box;
 		width: auto;
 		height: auto;
-		padding: 7px;
+		padding: 15px;
 	}
 	
 	#menu li {
@@ -326,28 +325,30 @@ strong {
 	/*----------------------------------------*/
 	/* Contenue de la page Acceuil */
 	#acceuil_body {
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
 		padding-bottom: 10px;
 		box-sizing: border-box;
 	}
 	
 	#acceuil_body h1 {
 		text-align: center;
+		font-size: 60px;
 	}
 	
 	#acceuil_body #section_1 p{
 		text-align: justify;
-		padding: 0px 100px 0px 100px;
+		padding: 0px 50px 0px 50px;
 	}
 	
 	#acceuil_body #section_2 h2 {
 		text-align: center;
+		font-size: 50px;
 	}
 	
 	#acceuil_body #section_3 {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
 		align-content: stretch;
 		gap: 20px 20px;
@@ -364,6 +365,7 @@ strong {
 	#acceuil_body #section_3 .titre_liens {
 		font-size: 20px;
 		font-weight: bold;
+		font-size: 40px;
 	}
 	
 	/*----------------------------------------*/
@@ -431,7 +433,7 @@ strong {
 	#projet {
 		padding: 50px;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
 		gap: 10px 10px;
 	}
