@@ -154,7 +154,7 @@
 		grid-area: content1;
 		padding-left: 30px;
 		padding-right: 30px;
-		padding-bottom: 10px;
+		padding-bottom: 30px;
 		margin-bottom: 25px;
 		box-sizing: border-box;
 		background-color: darkgray;
@@ -180,7 +180,7 @@
 	
 	#cv .secondaire {
 		display: grid;
-		grid-template-columns: 320px 270px 160px;
+		grid-template-columns: 320px 270px;
 		grid-template-rows: auto;
 		margin: 10px;
 	}
@@ -385,7 +385,7 @@
 		grid-area: content1;
 		padding-left: 30px;
 		padding-right: 30px;
-		padding-bottom: 10px;
+		padding-bottom: 30px;
 		margin-bottom: 25px;
 		box-sizing: border-box;
 		background-color: darkgray;
@@ -411,7 +411,7 @@
 	
 	#cv .secondaire {
 		display: grid;
-		grid-template-columns: 320px 270px 160px;
+		grid-template-columns: 320px 270px;
 		grid-template-rows: auto;
 		margin: 10px;
 	}
