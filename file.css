@@ -249,6 +249,14 @@
 		box-shadow: 4px 4px 10px;
 	}
 
+	.liens_de_telechargement {
+		color: black;
+	}
+
+	.liens_de_telechargement:hover {
+		color: brown;
+	}
+
 /*--------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 800px)
