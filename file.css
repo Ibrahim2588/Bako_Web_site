@@ -224,6 +224,31 @@
 		font-size: 30px;
 	}
 
+	/*-----------------------------------------------*/
+	#T_one {
+		padding: 20px;
+
+	}
+
+	#Telechargement {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	.T_liens_h {
+		text-align: center;
+	}
+
+	.T_liens {
+		margin: 20px;
+		padding: 5px;
+		border: 2px solid black;
+		border-radius: 4px;
+		background-color: darkcyan;
+		box-shadow: 4px 4px 10px;
+	}
+
 /*--------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 800px)
